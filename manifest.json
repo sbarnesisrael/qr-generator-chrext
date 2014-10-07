@@ -1,0 +1,29 @@
+{
+	"manifest_version": 2,
+
+	"name": "QR Generator",
+	"description": "This extension generates QR codes from links.",
+	"version": "0.1",
+	
+	"permissions": [
+		"contextMenus",
+		"tabs",
+		"http://*/*",
+		"https://*/*"
+	],
+	"page_action": {
+		"default_icon": "icon.png",
+		"default_title": "QR Code generator",
+		"default_popup": "popup.html"
+	},
+	"icons": {
+		"16": "imageinfo-16.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["jquery.min.js", "jquery.qrcode.min.js", "qrcode.js", "popup.js"],
+			"run_at": "document_end"
+		}
+	]
+}

@@ -3,7 +3,7 @@
 
 	"name": "__MSG_extName__",
 	"default_locale": "en",
-	"description": "This extension generates QR codes from links and selected text.",
+	"description": "__MSG_extDescription__",
 	"version": "0.2",
 	"background": { "scripts": ["js/background.js"] },
 	
@@ -19,9 +19,9 @@
 		"default_popup": "popup.html"
 	},
 	"icons": {
-		"16": "imgs/imageinfo-16.png",
-		"48": "imgs/imageinfo-48.png",
-		"128": "imgs/imageinfo-128.png"
+		"16": "imgs/qrgenerator-16.png",
+		"48": "imgs/qrgenerator-48.png",
+		"128": "imgs/qrgenerator-128.png"
 	},
 	"content_scripts": [
 		{

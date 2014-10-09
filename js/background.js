@@ -1,8 +1,10 @@
 /**
  * Create a context menu which will only show up for images.
  */
+var title = chrome.i18n.getMessage("contextMenu_description");
 chrome.contextMenus.create({
-  "title" : "Generate QR Code",
+  //"title" : "Generate QR Code",
+  "title": title,
   "type" : "normal",
   "contexts" : ["link", "selection"],
   "onclick" : getClickHandler()

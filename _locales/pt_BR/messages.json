@@ -1,0 +1,14 @@
+{
+	"extName": {
+		"message": "Gerador de Código QR",
+		"description": "Nome da extensão"
+	},
+	"extDescription": {
+		"message": "Esta extensão gera um código QR ​​de endereços da web e texto selecionado.",
+		"description": "Descrição de extensão."
+	},
+	"contextMenu_description": {
+		"message": "Gera Código QR",
+		"description": "Isto é o que o usuário clica em gerar um código QR."
+	}
+}

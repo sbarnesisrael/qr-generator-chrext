@@ -1,0 +1,14 @@
+{
+	"extName": {
+		"message": "QR Code Generator",
+		"description": "Extension name."
+	},
+	"extDescription": {
+		"message": "This extension generates a QR code from links and selected text.",
+		"description": "Extension description."
+	},
+	"contextMenu_description": {
+		"message": "Generate QR Code",
+		"description": "This is what the user clicks on to generate a QR code."
+	}
+}

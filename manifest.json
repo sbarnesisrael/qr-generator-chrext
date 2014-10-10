@@ -4,7 +4,7 @@
 	"name": "__MSG_extName__",
 	"default_locale": "en",
 	"description": "__MSG_extDescription__",
-	"version": "0.2",
+	"version": "0.3",
 	"background": { "scripts": ["js/background.js"] },
 	
 	"permissions": [
@@ -14,7 +14,7 @@
 		"https://*/*"
 	],
 	"page_action": {
-		"default_icon": "imgs/imageinfo-16.png",
+		"default_icon": "imgs/qrgenerator-16.png",
 		"default_title": "QR Code generator",
 		"default_popup": "popup.html"
 	},
